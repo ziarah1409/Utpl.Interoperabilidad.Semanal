@@ -1,0 +1,3 @@
+tasks:
+  - init: pip install paho-mqtt
+    command: python main.py
