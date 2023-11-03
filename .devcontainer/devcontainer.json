@@ -1,0 +1,14 @@
+{
+  "name": "Python devcontainer",
+  "image": "python:3.10",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python3"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-vscode.python-debug"
+  ],
+  "postCreateCommands": [
+    "pip install -U paho-mqtt"
+  ]
+}
